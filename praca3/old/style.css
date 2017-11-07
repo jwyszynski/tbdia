@@ -1,0 +1,175 @@
+/*
+* Style do dev1 index.php
+*
+*
+*/
+@charset "utf-8";
+
+body, html {
+	margin: 0;
+}
+
+body {
+	background-color: rgba( 72,111,136, 1);
+	background-image: url(ep_naturalblack.png);
+	/*www.toptal.com/designers/subtlepatterns/
+	If you need more, that's where to get'em.*/
+	background-repeat: repeat;
+	background-position: center top;
+	background-attachment: fixed;
+
+	color: #222;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+
+#CONTAINER {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.banner {
+	max-width: 1000px;
+	background-image: url('banner.jpg');
+	background-position: center;
+	height: 180px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.content-all {
+	max-width: 980px;
+	//height: 30em;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: rgba(18, 57, 82, 0.4);
+}
+
+h1 {
+	text-align: center;
+}
+
+#footer {
+	background-color: rgba(  4, 35, 55, 0.8);
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	height: 20px;
+	color: #eee;
+	padding: 15px 0;
+}
+
+#w1 {
+	display: block;
+}
+#w2,#w3,#w4 {
+	display: none;
+}
+
+.select-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+
+.select-field:focus{
+    border: 1px solid #0C0;
+}
+
+td {
+	width: 30px;
+	height: 30px;
+}
+
+
+
+/*.in {
+	width: 120px;
+	height: 40px;
+	background-color: rgba(18, 57, 82, 0.7);
+	color: #EEE;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	border: none;
+}*/
+
+
+/* -----------------------------------------------------
+*                    początek NAV
+* ------------------------------------------------------
+*/
+.inav {
+	position: fixed;
+	top: 0;
+	background-color: rgba(  4, 35, 55, 0.6);
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.nav-center {
+	max-width: 702px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.in {
+
+}
+
+/*Strip the ul of padding and list styling*/
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Style for menu links*/
+li a {
+	display:block;
+	min-width:140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: rgba(  4, 35, 55, 0.1);
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+	background: rgba(112,143,163,1);
+}
+
+
+@media all and (min-width: 769px) {
+
+
+}
+
+/*------------- MOBILE RESPONSIVE ---------------*/
+
+@media all and (max-width: 768px) and (min-width: 50px) {
+
+}

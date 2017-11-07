@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="czcionka.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="banner">
+			<a href="index.html" ><img src="banner.jpeg"></a>
+		</div>
+
+		<div class="mc">
+			<div class="menu">
+				<div class="menuin">
+					MENU<br />
+					<a href="opis.html">Opis</a><br />
+					<a href="jaka.html">Jaka to liczba?</a><br />
+					<a href="liczby.html">Liczby całkowite z zakresu</a>
+				</div>
+			</div>
+
+			<div class="content">
+			<div class="contentin">
+			<script type="text/javascript">
+				var liczba_1 = prompt("Podaj liczbę początkową", "");
+					liczba1 = Number(liczba_1);
+				var liczba_2 = prompt("Podaj liczbę końcową", "");
+					liczba2 = Number(liczba_2);
+				if (liczba1 > liczba2) {
+					document.write("Liczba pierwsza to "+liczba1+"<br />");
+					document.write("Liczba końcowa to "+liczba2+"<br />");
+					document.write("Zakres liczb malejąco to: ");
+					var ii = liczba1 - liczba2;
+					//document.write(ii);
+					i = Math.abs(ii);
+					//document.write(i);
+					for (; i >= 0; i--) {
+						document.write(liczba1+", ");
+						liczba1--;
+					} 
+				} else {
+					//document.write("Error 404, muzgu nie znaleziono<br />Obecnie jestem na etapie rozwiazywania pewnego problemu. Jesli to czytasz znaczy, że kod nie działa poprawnie.");
+					document.write("Liczba pierwsza to "+liczba1+"<br />");
+					document.write("Liczba końcowa to "+liczba2+"<br />");
+					document.write("Zakres liczb rosnąco to: ");
+					var ii = liczba1 - liczba2;
+					//document.write(ii);
+					i = Math.abs(ii);
+					//document.write(i);
+					for (; i >= 0; i--) {
+						document.write(liczba1+", ");
+						liczba1++;
+					} 
+				}
+
+			</script>
+			</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

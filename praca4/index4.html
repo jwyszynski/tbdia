@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+function zmien(x,y) {
+	if(x<y) {
+		var t = new Array(x, y);
+	var z;
+	z = t[0];
+	t[0] = t[1];
+	t[1] = z;
+	
+}}
+
+var b = prompt("Podaj liczbę 1:");
+a1 = Number(b);
+var b = prompt("Podaj liczbę 2:");
+a2 = Number(b);
+var b = prompt("Podaj liczbę 3:");
+a3 = Number(b);
+
+var a = [a1, a2, a3];
+
+document.write(a[2]+" "+a[1]+" "+a[0]+"<br />");
+var lol = zmien(a[2],a[1]);
+zmien(a[1],a[0]);
+zmien(a[2],a[1]);
+
+document.write(a[2]+" "+a[1]+" "+a[0]+"<br />");
+document.write(lol);
+</script>
+Uwaga! ten kod nie działa poprawnie

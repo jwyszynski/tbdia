@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Skrypt porządkujący wprowadzone liczby malejąco</title>
+	<meta name="author" content="Jakub Wyszyński">
+	<style type="text/css">
+		.h {
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+<span class="h">Skrypt porządkujący wprowadzone liczby malejąco</span>
+tu <a href="index7.html">rosnąco</a><br />
+wyk. Jakub Wyszyński<br /><br />
+<script type="text/javascript">
+	//Wykonał Jakub Wyszyński klasa 4BT
+var tmp = prompt("Podaj ile liczb chcesz posortować malejąco:");
+var ile_liczb = Number(tmp);
+if (ile_liczb>0){
+document.write("tyle liczb: "+ile_liczb+"<br />"); //pomocnicze
+
+var ar = new Array(ile_liczb); //tworzę pustą tablicę o długości ile_liczb
+
+for (var i = 0; i < ile_liczb; i++) {
+	kom = i+1;
+	tmp = prompt("Podaj Liczbę "+kom);
+	ar[i] = Number(tmp);
+	document.write("liczba "+kom+" to "+ar[i]+"<br />"); //pomocnicze
+}
+var dlugosc = ar.length;
+//document.write("Tablica ma "+dlugosc+" wyrazów<br />");
+document.write("<br />");
+
+for (var i = 1; i < ar.length; i++) {
+	var key = ar[i]; //klucz to komórka którą aktualnie wciskam w odpowiednie miejsce
+	var j = i - 1;
+	while (ar[j]>key) {
+		ar[j+1] = ar[j];
+		j = j - 1;
+		ar[j + 1] = key;
+	}
+}
+//wypisuję ciąg od końca
+document.write("Posortowany Ciąg to: ");
+for (var i = ile_liczb - 1; i >= 0; i--) {
+	
+	document.write(ar[i]+", ");
+}} else {document.write("Ilość liczb musi być większa od zera, i oczywiście musi to być liczba a nie jakiś inny znak czy litera");}
+
+</script>
+</body>
+</html>

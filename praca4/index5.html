@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+function zmien(x,y) {
+	if(x<y) {
+	var z;
+	z = x;
+	x = y;
+	y = z;
+	return result;
+}}
+
+var b = prompt("Podaj liczbę 1:");
+a1 = Number(b);
+var b = prompt("Podaj liczbę 2:");
+a2 = Number(b);
+var b = prompt("Podaj liczbę 3:");
+a3 = Number(b);
+
+var y
+if(a3<a2) {
+	y = a3;
+	a3 = a2;
+	a2 = y;
+}
+if(a2<a1) {
+	y = a2;
+	a2 = a1;
+	a1 = y;
+} 
+if(a3<a2) {
+	y = a3;
+	a3 = a2;
+	a2 = y;
+}
+
+document.write(a3+" "+a2+" "+a1+" ");
+</script>

@@ -1,0 +1,87 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #e6f2f0;
+	background: linear-gradient(to right, red, orange, yellow, lime, blue, purple, fuchsia);
+	background-color: gray;
+}
+
+.all {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+
+header {
+	text-align: center;
+	background-color: #b0e0e6;
+	width: 994px;
+	padding: 5px 0;
+	border: 3px dashed green;
+	color: #c72b26;
+}
+
+.obraz {
+	width: 350px;
+	height: 358px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url("obraz.png");
+}
+
+.klasy3 {
+	width: 1000px;
+}
+
+.klasy3 div {
+	width: 33.333333333%;
+	float: left;
+	color: #FFF;
+	background-color: #2E6D2E;
+}
+
+.klasy2 {
+	width: 1000px;
+}
+
+.klasy2 div {
+	width: 50%;
+	float: left;
+	color: #FFF;
+	background-color: #a8d2cc;
+	height: 200px;
+	color: #111;
+}
+
+#jeden {
+	background-color: #d703ff;
+}
+
+#dwa {
+ background-color: #ff1d8e;
+}
+
+.klasy4 {
+	width: 1000px;
+}
+
+.klasy4 div {
+	width: 25%;
+	float: left;
+	color: #FFF;
+	background-color: #ee2323;
+	text-align: center;
+	height: 130px;
+}
+
+.clear {
+	clear: both;
+}
+
+b {
+	color: rgba(0,0,0,0.09);
+}
