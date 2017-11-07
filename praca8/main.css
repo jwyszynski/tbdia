@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.allbox {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(230, 220, 210, 1);
+}
+
+header {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 200px;
+  background-color: #092;
+  font-family: "Arial";
+  font-size: 30px;
+  color: #FFF;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: #000 solid 5px;
+}
+
+.menu{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF0;
+  height: 110px;
+  width: 960px;
+  border: #000 solid 5px;
+}
+
+.menu div {
+  float: left;
+  height: 80px;
+  width: 290px;
+  margin: 10px;
+  border: #000 solid 5px;
+}
+
+.c1 {
+  background-color: #00F;
+  font-family: "Times";
+  font-size: 10px;
+  text-align: center;
+}
+
+.c2 {
+  background-color: #FF0;
+  font-family: "Comic Sans";
+  font-size: 10px;
+}
+
+.srodek {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 500px;
+  margin-top: 15px;
+}
+
+.sidebar {
+  background-color: #F00;
+  float: left;
+  width: 200px;
+  border: #000 solid 5px;
+  height: 400px;
+}
+
+.sidebar div {
+  width: 170px;
+  height: 40px;
+  margin: 10px;
+  border: #000 solid 5px;
+}
+
+.content {
+  text-align: justify;
+  font-size: 10px;
+  padding: 3px;
+  float: left;
+  width: 600px;
+  background-color: #EEF;
+  border: #000 solid 5px;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ad {
+  height: inherit;
+  float: left;
+  width: 140px;
+  border: #000 solid 5px;
+}
+
+footer {
+  margin-top: 15px;
+  background-color: #000;
+  font-size: 7px;
+  color: white;
+  text-align: right;
+  padding: 3px;
+  height: 30px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
